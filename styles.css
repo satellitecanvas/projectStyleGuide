@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Raleway;
+    color: black;
+}
+
+.color {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+}
+
+.color-paraglider {
+    background-color: rgb(77, 147, 228);
+}
+
+.color-glacier {
+    background-color: rgb(38, 70, 141);
+}
+
+.color-fields {
+    background-color: rgb(252, 201, 107);
+}
+
+.color-journey {
+    background-color: rgb(255, 98, 59);
+}
+
+.color-sofresh {
+    background-color: rgb(101, 212, 175);
+}
+
+.color-online {
+    background-color: rgb(0, 221, 92);
+}
+
+.color-canvas {
+    background-color: rgb(236, 224, 182);
+}
+
+.color-black {
+    background-color: rgb(0, 0, 0);
+}
