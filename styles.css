@@ -1,17 +1,59 @@
 * {
     box-sizing: border-box;
+    font-family: 'Raleway', serif;
+}
+
+body {
+    display: block;
+    margin: 0 10%;
 }
 
 h1 {
     font-family: Raleway;
     color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px auto;
+    border-bottom: 2px solid #a2a2a6;
 }
 
-.color {
-    height: 200px;
-    width: 400px;
+h2 {
+    text-transform: uppercase;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-top: 5px;
+}
+
+.container {
+    border-bottom: 2px solid #a2a2a6;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.color-container {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid #a2a2a6;
+}
+
+.color-panel {
     display: inline-block;
-    position: absolute;
+    width: 24%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    border-radius: 17%;
+    border-bottom: 2px solid #a2a2a6;
 }
 
 .color-paraglider {
@@ -44,4 +86,5 @@ h1 {
 
 .color-black {
     background-color: rgb(0, 0, 0);
+    color: rgb(236, 224, 182);
 }
