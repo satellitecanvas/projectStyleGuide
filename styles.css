@@ -94,11 +94,11 @@ p {
 }
 
 .font {
-
+    color: black;
 }
 
 .font-container {
-
+    color: black;
 }
 
 .font-style {
@@ -106,7 +106,7 @@ p {
 }
 
 .text {
-
+    color: black;
 }
 
 .text-container {
